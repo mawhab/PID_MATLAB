@@ -1,0 +1,8 @@
+prefix=/home/hossamaladdin/M.I.A/Repos/Robocon21_MIA/software/basic_codes/tf estimation/motor_tf_ws/install
+
+Name: extract_speed
+Description: Description of extract_speed
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,24 @@
+<launch>
+	<node pkg="extract_speed" type="extract_speed.py" name="extract_speeds" />
+
+	<node pkg="rosserial_python" type="serial_node.py" name="node_A" respawn="true">
+		<param name="port" value="/dev/ttyUSB0"/>
+		<param name="baud" value="115200"/>
+	</node>
+
+	<!-- <node pkg="rosserial_python" type="serial_node.py" name="node_B" respawn="true">
+		<param name="port" value="/dev/ttyUSB1"/>
+		<param name="baud" value="115200"/>
+	</node>
+	
+	<node pkg="rosserial_python" type="serial_node.py" name="node_C" respawn="true">
+		<param name="port" value="/dev/ttyUSB2"/>
+		<param name="baud" value="115200"/>
+	</node>
+
+	<node pkg="rosserial_python" type="serial_node.py" name="node_D" respawn="true">
+		<param name="port" value="/dev/ttyUSB3"/>
+		<param name="baud" value="115200"/>
+	</node> -->
+
+</launch>

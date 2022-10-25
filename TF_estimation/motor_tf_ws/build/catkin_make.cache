@@ -1,0 +1,2 @@
+extract_speed
+-DCATKIN_DEVEL_PREFIX=/home/hossamaladdin/M.I.A/Repos/Robocon21_MIA/software/basic_codes/tf estimation/motor_tf_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hossamaladdin/M.I.A/Repos/Robocon21_MIA/software/basic_codes/tf estimation/motor_tf_ws/install -G Unix Makefiles
